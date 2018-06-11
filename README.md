@@ -21,3 +21,8 @@ $GOPATH/bin/bulkube [-l <labelSelector>] [-fmt] [-image <repo/name>] [-sha abc12
   -sha string
     	Set image version by sha.
 ```
+
+Example: 
+```
+$GOPATH/bin/bulkube -image 123456.dkr.ecr.us-east-1.amazonaws.com/ruby-dev -sha abc123 -path /Users/user/workspace/clocktower/extras/kube/k8s.staging.us-east-1.pdops.net/deployments
+```
